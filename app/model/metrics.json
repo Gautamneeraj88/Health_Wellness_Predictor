@@ -1,0 +1,31 @@
+{
+  "model_name": "RandomForest",
+  "timestamp": "2025-11-16 17:04:15",
+  "features": [
+    "sleepHours",
+    "calories",
+    "steps",
+    "waterIntake"
+  ],
+  "n_samples_train": 80000,
+  "n_samples_test": 20000,
+  "metrics": {
+    "rmse": 0.31092429258082344,
+    "mae": 0.12785656389796604,
+    "r2": 0.9989110342047581
+  },
+  "cross_validation_results": {
+    "RandomForest": {
+      "RMSE": 0.314218146081324,
+      "Std": 0.009887521583208025
+    },
+    "GradientBoosting": {
+      "RMSE": 0.17909599884377353,
+      "Std": 0.007987753352206285
+    },
+    "CatBoost": {
+      "RMSE": 0.34551736927956633,
+      "Std": 0.03408965691508029
+    }
+  }
+}
